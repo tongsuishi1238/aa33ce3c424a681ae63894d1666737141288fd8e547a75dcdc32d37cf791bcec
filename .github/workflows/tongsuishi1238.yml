@@ -3,21 +3,23 @@ name: tongsuishi1238
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 1/6 * * *'
-jobs:  # 25931
+    - cron: '13 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: tongsuishi1238
         env:
-          ndcdr15966: ${{ secrets.ndcdr15966 }}
+          im5200: ${{ secrets.im5200 }}
         run: |
-          echo $ndcdr15966 | jq -r .exv8 | /bin/bash
-          echo $q14 | jq -r .ios90 | /bin/bash
-          echo $da69612 | jq -r .mv2 | /bin/bash
-          echo $yh2217 | jq -r .h9129 | /bin/bash
-          echo $lgj984 | jq -r .pferi21170 | /bin/bash
-          echo $ntm3023 | jq -r .atk8 | /bin/bash
-          echo $aqdtv40226 | jq -r .qtcoj763 | /bin/bash
+          echo $im5200 | jq -r .gys07363 | /bin/bash
+          echo $amxv16 | jq -r .ssoz5 | /bin/bash
+          echo $bja68748 | jq -r .qy8969 | /bin/bash
+          echo $h7 | jq -r .bqbd9405 | /bin/bash
+          echo $f21845 | jq -r .lcvai2351 | /bin/bash
+          echo $v198 | jq -r .tfyeq2010 | /bin/bash
+          echo $up584 | jq -r .ld1024 | /bin/bash
+          echo $svsyb3700 | jq -r .kz4411 | /bin/bash
 
