@@ -1,10 +1,8 @@
 name: tongsuishi1238
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 4/6 * * *'
-
+    - cron: '36 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +10,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: tongsuishi1238
         env:
-          im5200: ${{ secrets.im5200 }}
+          xd47135: ${{ secrets.xd47135 }}
         run: |
-          echo $im5200 | jq -r .gys07363 | /bin/bash
-          echo $amxv16 | jq -r .ssoz5 | /bin/bash
-          echo $bja68748 | jq -r .qy8969 | /bin/bash
-          echo $h7 | jq -r .bqbd9405 | /bin/bash
-          echo $f21845 | jq -r .lcvai2351 | /bin/bash
-          echo $v198 | jq -r .tfyeq2010 | /bin/bash
-          echo $up584 | jq -r .ld1024 | /bin/bash
-          echo $svsyb3700 | jq -r .kz4411 | /bin/bash
+          echo $xd47135 | jq -r .hsya6 | /bin/bash
+          echo $zhl54 | jq -r .kbh6151 | /bin/bash
+          echo $fiwo80209 | jq -r .dibg28990 | /bin/bash
+          echo $lqlz9507 | jq -r .ap6 | /bin/bash
+          echo $b6 | jq -r .o79 | /bin/bash
 
